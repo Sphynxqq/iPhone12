@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.size_banner {
+    width: 100%;
+}
+
+.content-text {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content-text h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-text h2 {
+    font-family: 'Sarabun', sans-serif;
+    color: #438854;
+}
+
+.content-text h3 {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 20px;
+}
+
+.content-text p {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 12px;
+}
+
+.size-preorder {
+    margin-top: -10px;
+    margin-left: 275px;
+}
+
+.size-photo {
+    width: 250px;
+    height: 310px;
+    margin-left: 60px;
+}
+
+.content-order {
+    margin-bottom: 50px;
+}
+
+.content-order1 {
+    background-color: #f9f3e3;
+}
+
+.content-order2 {
+    background-color:  #f9f3e3;
+}
+
+.content-order3 {
+    background-color: #f9f3e3;
+}
+
+.content-order {
+    width: 100%;
+    height: auto;
+}
+
+.content-order-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    grid-gap: 15px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-color {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+
+.btn-gray {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #5e5d59;
+    border: none;
+}
+
+.btn-white {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #e5e6e1;
+    border: none;
+}
+
+.btn-green {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #3a5a67;
+    border: none;
+}
+
+.btn-gold {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #fcecd5;
+    border: none;
+}
+
+.set-ct {
+    text-align: center;
+}
+
+.set-ct h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.set-ct h3 {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.set-ct h1 {
+    font-family: 'Sarabun', sans-serif;
+}
+
+.btn-order {
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #964091;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    border: none;
+}
+
+.content-yt {
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+}
+
+.content-text-yt {
+    
+}
+
+.content-text-yt p {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 30px;
+    color: #646464;
+}
+
+.display-yt {
+    margin-top: 250px;
+}
+
+.flex-icon {
+    display: flex;
+}
