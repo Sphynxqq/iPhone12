@@ -35,69 +35,128 @@
         <div class="content-order-grid">
             <div class="content-order1">
                 <img src="./images/label_preorder.png" alt="preorder" class="size-preorder">
-                <img src="./images/iphone-gray.png" alt="iphone-gray" class="size-photo">
+                <img src="./images/iphone-gray.png" alt="iphone-gray" class="size-photo" id="iphoneGray1">
                 <div class="btn-color">
-                    <button class="btn-gray"></button>
-                    <button class="btn-white"></button>
-                    <button class="btn-green"></button>
-                    <button class="btn-gold"></button>
+                    <button onclick="order1_Gray()" class="btn-gray"></button>
+                    <button onclick="order1_White()" class="btn-white"></button>
+                    <button onclick="order1_Green()" class="btn-green"></button>
+                    <button onclick="order1_Gold()" class="btn-gold"></button>
                 </div>
                 <div class="set-ct">
                     <h2>iPhone 12 Pro Max</h2>
                     <h3>ราคาปกติ XX,XXX.-</h3>
                     <h1>เริ่มเพียง XX,XXX.-</h1>
-                    <button class="btn-order">สั่งซื้อ</button>
+                    <button onclick="btnOrder_item()" class="btn-order">สั่งซื้อ</button>
                 </div>
             </div>
             
             <div class="content-order2">
                 <img src="./images/label_preorder.png" alt="preorder" class="size-preorder">
-                <img src="./images/iphone-gray.png" alt="iphone-gray" class="size-photo">
+                <img src="./images/iphone-gray.png" alt="iphone-gray" class="size-photo" id="iphoneGray2">
                 <div class="btn-color">
-                    <button class="btn-gray"></button>
-                    <button class="btn-white"></button>
-                    <button class="btn-green"></button>
-                    <button class="btn-gold"></button>
+                    <button onclick="order2_Gray()" class="btn-gray"></button>
+                    <button onclick="order2_White()" class="btn-white"></button>
+                    <button onclick="order2_Green()" class="btn-green"></button>
+                    <button onclick="order2_Gold()" class="btn-gold"></button>
                 </div>
                 <div class="set-ct">
                     <h2>iPhone 12 Pro Max</h2>
                     <h3>ราคาปกติ XX,XXX.-</h3>
                     <h1>เริ่มเพียง XX,XXX.-</h1>
-                    <button class="btn-order">สั่งซื้อ</button>
+                    <button onclick="btnOrder_item()" class="btn-order">สั่งซื้อ</button>
                 </div>
             </div>
             
             <div class="content-order3">
                 <img src="./images/label_preorder.png" alt="preorder" class="size-preorder">
-                <img src="./images/iphone-gray.png" alt="iphone-gray" class="size-photo">
+                <img src="./images/iphone-gray.png" alt="iphone-gray" class="size-photo" id="iphoneGray3">
                 <div class="btn-color">
-                    <button class="btn-gray"></button>
-                    <button class="btn-white"></button>
-                    <button class="btn-green"></button>
-                    <button class="btn-gold"></button>
+                    <button onclick="order3_Gray()" class="btn-gray"></button>
+                    <button onclick="order3_White()" class="btn-white"></button>
+                    <button onclick="order3_Green()" class="btn-green"></button>
+                    <button onclick="order3_Gold()" class="btn-gold"></button>
                 </div>
                 <div class="set-ct">
                     <h2>iPhone 12 Pro Max</h2>
                     <h3>ราคาปกติ XX,XXX.-</h3>
                     <h1>เริ่มเพียง XX,XXX.-</h1>
-                    <button class="btn-order">สั่งซื้อ</button>
+                    <button onclick="btnOrder_item()" class="btn-order">สั่งซื้อ</button>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="content-yt">
-        <img src="./images/youtube_premium.png" alt="youtube_premium" class="display-yt">
+        <div class="set-center-yt">
+            <img src="./images/youtube_premium.png" alt="youtube_premium" class="display-yt">
+        </div>
         <div class="content-text-yt">
             <p>พร้อมรับชมวิดีโอบน YouTube แบบไม่มีโฆษณาคัน</p>
             <p>ด้วย YouTube Preminm ฟรีสูงสุด 6 เดือน</p>
             <div class="flex-icon">
                 <p>รับสิทธิ์กด *656*1#</p>
-                <img src="./images/i_call.png" alt="i_call">
+                <img src="./images/i_call.png" alt="i_call" class="size-tel">
             </div>
         </div>
     </div>
 
+    <script>
+        var imgIphone1 = document.getElementById("iphoneGray1");
+        var imgIphone2 = document.getElementById("iphoneGray2");
+        var imgIphone3 = document.getElementById("iphoneGray3");
+        function order1_Gray() {
+            imgIphone1.src='./images/iphone-gray.png';
+        }
+
+        function order1_White() {
+            imgIphone1.src = './images/iphone-white.png';
+        }
+
+        function order1_Green() {
+            imgIphone1.src = './images/iphone-green.png';
+        }
+
+        function order1_Gold() {
+            imgIphone1.src = './images/iphone-gold.png';
+        }
+
+        function order2_Gray() {
+            imgIphone2.src='./images/iphone-gray.png';
+        }
+
+        function order2_White() {
+            imgIphone2.src = './images/iphone-white.png';
+        }
+
+        function order2_Green() {
+            imgIphone2.src = './images/iphone-green.png';
+        }
+
+        function order2_Gold() {
+            imgIphone2.src = './images/iphone-gold.png';
+        }
+
+        function order3_Gray() {
+            imgIphone3.src='./images/iphone-gray.png';
+        }
+
+        function order3_White() {
+            imgIphone3.src = './images/iphone-white.png';
+        }
+
+        function order3_Green() {
+            imgIphone3.src = './images/iphone-green.png';
+        }
+
+        function order3_Gold() {
+            imgIphone3.src = './images/iphone-gold.png';
+        }
+
+        function btnOrder_item() {
+            alert("Sorry iPhone 12 out of stock")
+        }
+
+    </script>
 
 </body>
 

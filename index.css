@@ -143,7 +143,12 @@
 }
 
 .content-text-yt {
-    
+    text-align: center;
+}
+
+.set-center-yt {
+    width: 100%;
+    height: auto;
 }
 
 .content-text-yt p {
@@ -154,8 +159,16 @@
 
 .display-yt {
     margin-top: 250px;
+    margin-bottom: 20px;
 }
 
 .flex-icon {
     display: flex;
+    justify-content: center;
+}
+
+.size-tel {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
 }
