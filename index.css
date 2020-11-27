@@ -148,7 +148,6 @@
 
 .set-center-yt {
     width: 100%;
-    height: auto;
 }
 
 .content-text-yt p {
@@ -160,6 +159,8 @@
 .display-yt {
     margin-top: 250px;
     margin-bottom: 20px;
+    margin: auto auto;
+    display: block;
 }
 
 .flex-icon {
@@ -171,4 +172,123 @@
     width: 25px;
     height: 25px;
     margin-top: 10px;
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1900px) {
+    .size-preorder {
+        margin-top: -10px;
+        margin-left: 210px;
+    }
+}
+
+@media screen and (min-width: 690px) and (max-width: 1149px) {
+
+    .size-preorder {
+        margin-top: -10px;
+        margin-left: 300px;
+    }
+
+    .content-order-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 0.4fr);
+        grid-gap: 15px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .size-photo {
+        margin-left: 100px;
+    }
+
+    .btn-color {
+        margin-left: 160px;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 689px) {
+    .size_banner {
+        width: 123vh;
+    }
+    
+    .content-order-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 0.4fr);
+        grid-gap: 15px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .respon-center {
+        width: 120vh;
+    }
+
+    .content-yt {
+        width: 123vh;
+    }
+
+    .display-yt {
+        width: 440px;
+        margin-bottom: 20px;
+    }
+
+    .content-text-yt p {
+        font-size: 23px;
+    }
+
+    .size-tel {
+        width: 20px;
+        height: 20px;
+        margin-top: 7px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 413px) {
+    .display-yt {
+        width: 320px;
+        margin-bottom: 20px;
+    }
+
+    .content-text-yt p {
+        font-size: 14px;
+    }
+
+    .content-order-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 0.1fr);
+        grid-gap: 15px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .size-tel {
+        width: 10px;
+        height: 10px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .size_banner {
+        width: 126vh;
+    }
+
+    .content-order-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 0.1fr);
+        grid-gap: 15px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .content-yt {
+        width: 126vh;
+    }
+
+    .content-text {
+        width: 126vh;
+    }
+
+    .content-order {
+        width: 126vh;
+    }
 }
